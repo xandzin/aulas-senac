@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(248, 43, 248);
+    font-family: Helvetica;
+}
+header{
+    background-color: rgb(247, 168, 220);
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+section{
+    display: flex;
+}
+nav{
+    flex:1;
+    background-color: rgb(228, 78, 78);
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+article{
+    flex: 3;
+    background-color: aliceblue;
+}
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+@media (max-width: 600px) {
+    section{
+        flex-direction: column;
+    }
+}

@@ -1,3 +1,15 @@
 body{
     background-color: blueviolet;
+    
+}
+h1{
+    font-family: Helvetica;
+    color: chartreuse;
+    text-align: center;
+}
+img{
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
